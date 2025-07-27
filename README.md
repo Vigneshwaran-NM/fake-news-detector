@@ -24,7 +24,7 @@ This project is a **Fake News Detection System** built using **Machine Learning*
 
 ## 📂 Project Structure
 
-bash
+```bash
 fake-news-detector/
 │
 ├── data/
