@@ -50,22 +50,22 @@ fake-news-detector/
 ```
 ## 🧪 How It Works
 
-### 📌 Dataset
+###  Dataset
 - Combines **real** and **fake** news articles from [Kaggle Datasets](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset).
 
-### 🔧 Preprocessing
+###  Preprocessing
 - Lowercasing
 - Removing punctuation, URLs, and stopwords
 - Token normalization using NLTK
 
-### 🧰 Feature Engineering
+###  Feature Engineering
 - Uses **TF-IDF** (Term Frequency-Inverse Document Frequency)
 
-### 🧠 Model
+###  Model
 - Trained using **Logistic Regression**
 - Achieves ~**99% accuracy**
 
-### 🧾 Prediction Logic
+###  Prediction Logic
 1. Accepts user input (headline or article)
 2. Cleans the text using the preprocessing pipeline
 3. Vectorizes it using the trained TF-IDF vectorizer
@@ -76,16 +76,12 @@ fake-news-detector/
 ## 🛠️ Installation & Running Locally
 
 ### 1. Clone the Repository
-```
-bash
+```bash
 git clone https://github.com/Vigneshwaran-NM/fake-news-detector.git
 cd fake-news-detector
 ```
 ### 2. Create a Virtual Environment (Optional but Recommended)
-```
-bash
-Copy
-Edit
+```bash
 python -m venv venv
 ```
 #### Windows
@@ -94,28 +90,20 @@ python -m venv venv
 ```source venv/bin/activate```
 
 ### 3. Install Dependencies
-```
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
 ```
 ### 4. Download NLTK Stopwords (Only Once)
 Add the following at the top of app.py:
-```
-python
-Copy
-Edit
+```python
 import nltk
 nltk.download('stopwords')
 ```
 ### 5. Run the App
 ```bash
-
-Copy
-Edit
 streamlit run app.py
 ```
+
 ## 🌍 Try It Online
 
 🚀 **[Click here to use the Fake News Detection App](https://fake-news-detector-b8ckqw633dp2hy4ujlktgr.streamlit.app/)**  
