@@ -22,6 +22,7 @@ This project is a **Fake News Detection System** built using **Machine Learning*
 
 
 ## 📂 Project Structure
+
 bash
 fake-news-detector/
 │
@@ -75,24 +76,27 @@ fake-news-detector/
 ## 🛠️ Installation & Running Locally
 
 ### 1. Clone the Repository
+
 bash
 git clone https://github.com/Vigneshwaran-NM/fake-news-detector.git
 cd fake-news-detector
-###2. Create a Virtual Environment (Optional but Recommended)
+### 2. Create a Virtual Environment (Optional but Recommended)
+
 bash
 Copy
 Edit
 python -m venv venv
-# Windows
+#### Windows
 venv\Scripts\activate
-# Mac/Linux
+#### Mac/Linux
 source venv/bin/activate
-3. Install Dependencies
+### 3. Install Dependencies
+
 bash
 Copy
 Edit
 pip install -r requirements.txt
-4. Download NLTK Stopwords (Only Once)
+### 4. Download NLTK Stopwords (Only Once)
 Add the following at the top of app.py:
 
 python
@@ -100,8 +104,9 @@ Copy
 Edit
 import nltk
 nltk.download('stopwords')
-5. Run the App
+### 5. Run the App
 bash
+
 Copy
 Edit
 streamlit run app.py
@@ -129,7 +134,7 @@ _(Hosted via Streamlit Cloud)_
 
 ---
 
-## ✍️ Sample Inputs
+##  Sample Inputs
 
 ### ✅ Real News:
 - "Indian government announces new policies to tackle inflation."
@@ -143,16 +148,7 @@ _(Hosted via Streamlit Cloud)_
 
 ---
 
-## 🔑 Keywords (SEO Optimized)
-
-**Fake News Detection**, **Machine Learning**, **NLP**, **Python**, **Streamlit**,  
-**TF-IDF**, **Logistic Regression**, **Text Classification**, **News Classifier**,  
-**Real or Fake News**, **GitHub Fake News Detector**, **Capstone Project**,  
-**AI in Journalism**, **ML Project for Resume**, **Data Science Portfolio**
-
----
-
-## 📃 License
+##  License
 
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
