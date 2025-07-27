@@ -20,11 +20,9 @@ This project is a **Fake News Detection System** built using **Machine Learning*
 - ✅ Historical prediction logging
 - ✅ Clean and modular code
 
----
 
 ## 📂 Project Structure
-
-```bash
+bash
 fake-news-detector/
 │
 ├── data/
@@ -48,116 +46,129 @@ fake-news-detector/
 ├── .gitignore
 └── README.md                   # This file
 
+
 ## 🧪 How It Works
 
-Dataset
-Combines real and fake news data from Kaggle datasets (fake.csv and true.csv).
+### 📌 Dataset
+- Combines **real** and **fake** news articles from [Kaggle Datasets](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset).
 
-Preprocessing
+### 🔧 Preprocessing
+- Lowercasing
+- Removing punctuation, URLs, and stopwords
+- Token normalization using NLTK
 
-Lowercasing
+### 🧰 Feature Engineering
+- Uses **TF-IDF** (Term Frequency-Inverse Document Frequency)
 
-Removing punctuation, URLs, and stopwords
+### 🧠 Model
+- Trained using **Logistic Regression**
+- Achieves ~**99% accuracy**
 
-Token normalization
+### 🧾 Prediction Logic
+1. Accepts user input (headline or article)
+2. Cleans the text using the preprocessing pipeline
+3. Vectorizes it using the trained TF-IDF vectorizer
+4. Predicts label and displays confidence score
 
-Feature Engineering
+---
 
-Text vectorized using TF-IDF (Term Frequency-Inverse Document Frequency)
+## 🛠️ Installation & Running Locally
 
-Model
-
-Uses Logistic Regression for binary classification
-
-Achieves ~99% accuracy on test data
-
-Prediction Logic
-
-Takes in a news headline/article
-
-Cleans it using the same preprocessing logic
-
-Transforms using the trained vectorizer
-
-Predicts and shows a confidence score
-
-## 🛠️ Installation & Run Locally
-
-1. Clone the Repository
+### 1. Clone the Repository
 bash
-Copy
-Edit
 git clone https://github.com/Vigneshwaran-NM/fake-news-detector.git
 cd fake-news-detector
-2. Create Virtual Environment (Optional but Recommended)
+###2. Create a Virtual Environment (Optional but Recommended)
 bash
 Copy
 Edit
 python -m venv venv
-venv\Scripts\activate  # On Windows
-# OR
-source venv/bin/activate  # On Mac/Linux
+# Windows
+venv\Scripts\activate
+# Mac/Linux
+source venv/bin/activate
 3. Install Dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
-4. Download NLTK Stopwords (Only once)
+4. Download NLTK Stopwords (Only Once)
+Add the following at the top of app.py:
+
 python
 Copy
 Edit
-# Run this once in Python shell or at top of app.py
 import nltk
 nltk.download('stopwords')
-5. Run the App (Streamlit)
+5. Run the App
 bash
 Copy
 Edit
 streamlit run app.py
 
-## 🌍 Try it Online
-🚀 [Click here to use the Fake News Detection App](https://fake-news-detector-b8ckqw633dp2hy4ujlktgr.streamlit.app/)
+## 🌍 Try It Online
+
+🚀 **[Click here to use the Fake News Detection App](https://fake-news-detector-b8ckqw633dp2hy4ujlktgr.streamlit.app/)**  
+_(Hosted via Streamlit Cloud)_
+
+---
 
 ## 📊 Model Evaluation
-text
-Copy
-Edit
-Accuracy: 99%
-Precision: 0.99
-Recall: 0.99
-F1 Score: 0.99
-Confusion Matrix:
 
-lua
-Copy
-Edit
-[[4315   40]
- [  62 4563]]
-## 📌 Sample Inputs
-Try with:
+| Metric    | Score |
+|-----------|-------|
+| Accuracy  | 99%   |
+| Precision | 0.99  |
+| Recall    | 0.99  |
+| F1 Score  | 0.99  |
 
-✅ "Government announces new healthcare policies for 2025"
+**Confusion Matrix:**
+[[4315 40]
+[ 62 4563]]
 
-❌ "NASA confirms alien spaceship landed in Delhi"
 
-✅ "Finance Minister announces tax cut for startups"
+---
+
+## ✍️ Sample Inputs
+
+### ✅ Real News:
+- "Indian government announces new policies to tackle inflation."
+- "NASA successfully launches new Mars rover."
+- "Finance Minister announces tax cut for startups."
+
+### ❌ Fake News:
+- "Aliens land in Delhi and sign peace treaty."
+- "Bill Gates creates virus to control population."
+- "Drinking bleach cures COVID-19 overnight."
+
+---
 
 ## 🔑 Keywords (SEO Optimized)
-Fake News Detection, Machine Learning, NLP, Python, Streamlit, TF-IDF, Logistic Regression, Text Classification, News Classifier, Real or Fake News, GitHub Fake News Detector, Data Science Projects, Capstone Project, AI in Journalism, ML Project for Resume
+
+**Fake News Detection**, **Machine Learning**, **NLP**, **Python**, **Streamlit**,  
+**TF-IDF**, **Logistic Regression**, **Text Classification**, **News Classifier**,  
+**Real or Fake News**, **GitHub Fake News Detector**, **Capstone Project**,  
+**AI in Journalism**, **ML Project for Resume**, **Data Science Portfolio**
+
+---
 
 ## 📃 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contributors
-Vigneshwaran N M
-GitHub
-LinkedIn
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
-## 🙌 Acknowledgements
-Kaggle Fake News Dataset
+---
 
-Scikit-learn
+##  Contributor
 
-NLTK
+**Vigneshwaran N M**  
+🔗 [GitHub](https://github.com/Vigneshwaran-NM)  
+🔗 [LinkedIn](https://www.linkedin.com/in/vigneshwaran-nm)
 
-Streamlit
+---
+
+##  Acknowledgements
+
+- [Kaggle Fake News Dataset](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset)  
+- [Scikit-learn](https://scikit-learn.org/)  
+- [NLTK](https://www.nltk.org/)  
+- [Streamlit](https://streamlit.io/)
