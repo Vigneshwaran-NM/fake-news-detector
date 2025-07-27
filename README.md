@@ -47,7 +47,7 @@ fake-news-detector/
 ├── requirements.txt            # Python dependencies
 ├── .gitignore
 └── README.md                   # This file
-
+```
 ## 🧪 How It Works
 
 ### 📌 Dataset
@@ -76,41 +76,46 @@ fake-news-detector/
 ## 🛠️ Installation & Running Locally
 
 ### 1. Clone the Repository
-
+```
 bash
 git clone https://github.com/Vigneshwaran-NM/fake-news-detector.git
 cd fake-news-detector
+```
 ### 2. Create a Virtual Environment (Optional but Recommended)
-
+```
 bash
 Copy
 Edit
 python -m venv venv
+```
 #### Windows
-venv\Scripts\activate
+```venv\Scripts\activate```
 #### Mac/Linux
-source venv/bin/activate
-### 3. Install Dependencies
+```source venv/bin/activate```
 
+### 3. Install Dependencies
+```
 bash
 Copy
 Edit
 pip install -r requirements.txt
+```
 ### 4. Download NLTK Stopwords (Only Once)
 Add the following at the top of app.py:
-
+```
 python
 Copy
 Edit
 import nltk
 nltk.download('stopwords')
+```
 ### 5. Run the App
-bash
+```bash
 
 Copy
 Edit
 streamlit run app.py
-
+```
 ## 🌍 Try It Online
 
 🚀 **[Click here to use the Fake News Detection App](https://fake-news-detector-b8ckqw633dp2hy4ujlktgr.streamlit.app/)**  
