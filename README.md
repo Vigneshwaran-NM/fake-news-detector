@@ -48,7 +48,8 @@ fake-news-detector/
 ├── .gitignore
 └── README.md                   # This file
 
-🧪 How It Works
+## 🧪 How It Works
+
 Dataset
 Combines real and fake news data from Kaggle datasets (fake.csv and true.csv).
 
@@ -80,7 +81,8 @@ Transforms using the trained vectorizer
 
 Predicts and shows a confidence score
 
-🛠️ Installation & Run Locally
+## 🛠️ Installation & Run Locally
+
 1. Clone the Repository
 bash
 Copy
@@ -112,10 +114,11 @@ bash
 Copy
 Edit
 streamlit run app.py
-🌍 Try Online (Optional)
-🚧 Coming Soon: Hosted on Streamlit Cloud / HuggingFace Spaces
 
-📊 Model Evaluation
+## 🌍 Try it Online
+🚀 [Click here to use the Fake News Detection App](https://fake-news-detector-b8ckqw633dp2hy4ujlktgr.streamlit.app/)
+
+## 📊 Model Evaluation
 text
 Copy
 Edit
@@ -130,7 +133,7 @@ Copy
 Edit
 [[4315   40]
  [  62 4563]]
-📌 Sample Inputs
+## 📌 Sample Inputs
 Try with:
 
 ✅ "Government announces new healthcare policies for 2025"
@@ -139,18 +142,18 @@ Try with:
 
 ✅ "Finance Minister announces tax cut for startups"
 
-🔑 Keywords (SEO Optimized)
+## 🔑 Keywords (SEO Optimized)
 Fake News Detection, Machine Learning, NLP, Python, Streamlit, TF-IDF, Logistic Regression, Text Classification, News Classifier, Real or Fake News, GitHub Fake News Detector, Data Science Projects, Capstone Project, AI in Journalism, ML Project for Resume
 
-📃 License
+## 📃 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🤝 Contributors
+## 🤝 Contributors
 Vigneshwaran N M
 GitHub
 LinkedIn
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 Kaggle Fake News Dataset
 
 Scikit-learn
