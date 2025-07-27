@@ -20,6 +20,7 @@ This project is a **Fake News Detection System** built using **Machine Learning*
 - ✅ Historical prediction logging
 - ✅ Clean and modular code
 
+---
 
 ## 📂 Project Structure
 
@@ -46,7 +47,6 @@ fake-news-detector/
 ├── requirements.txt            # Python dependencies
 ├── .gitignore
 └── README.md                   # This file
-
 
 ## 🧪 How It Works
 
