@@ -1,4 +1,4 @@
-# 📰 Fake News Detection System using Machine Learning
+#  Fake News Detection System using Machine Learning
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Vigneshwaran-NM/fake-news-detector)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Vigneshwaran-NM/fake-news-detector)
