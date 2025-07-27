@@ -103,6 +103,19 @@ nltk.download('stopwords')
 ```bash
 streamlit run app.py
 ```
+##  Sample Inputs
+
+### ✅ Real News:
+- "Indian government announces new policies to tackle inflation."
+- "NASA successfully launches new Mars rover."
+- "Finance Minister announces tax cut for startups."
+
+### ❌ Fake News:
+- "Aliens land in Delhi and sign peace treaty."
+- "Bill Gates creates virus to control population."
+- "Drinking bleach cures COVID-19 overnight."
+
+---
 
 ## 🌍 Try It Online
 
@@ -124,20 +137,6 @@ _(Hosted via Streamlit Cloud)_
 [[4315 40]
 [ 62 4563]]
 
-
----
-
-##  Sample Inputs
-
-### ✅ Real News:
-- "Indian government announces new policies to tackle inflation."
-- "NASA successfully launches new Mars rover."
-- "Finance Minister announces tax cut for startups."
-
-### ❌ Fake News:
-- "Aliens land in Delhi and sign peace treaty."
-- "Bill Gates creates virus to control population."
-- "Drinking bleach cures COVID-19 overnight."
 
 ---
 
