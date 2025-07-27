@@ -1,0 +1,12 @@
+timestamp,text,prediction,confidence
+2025-07-25 20:05:08,Indian government approves new AI policy to boost innovation and startups.,FAKE NEWS,0.5434
+2025-07-25 20:05:28,Scientists confirm Earth is flat after top-secret research leaks online.,FAKE NEWS,0.8074
+2025-07-25 20:05:41,NASA successfully lands spacecraft on Mars for groundbreaking research mission.,FAKE NEWS,0.7825
+2025-07-25 20:05:54,Apple announces launch date for next-generation iPhone with advanced camera features.,FAKE NEWS,0.6663
+2025-07-25 20:45:34,India successfully lands Chandrayaan-3 near the Moon’s south pole.,FAKE NEWS,0.5919
+2025-07-25 20:45:55,"NASA has announced a new mission to explore the icy moons of Jupiter, aiming to search for signs of life",FAKE NEWS,0.7658
+2025-07-25 20:46:14,"Drinking boiled Coca-Cola cures cancer, scientists confirm.",FAKE NEWS,0.7777
+2025-07-25 21:10:33,NASA successfully launches James Webb Space Telescope into orbit.,FAKE NEWS,0.8325
+2025-07-25 21:11:02,ISRO plans next Chandrayaan mission for lunar exploration.,REAL NEWS,0.432
+2025-07-25 21:11:14,Reserve Bank of India hikes repo rate to control inflation,REAL NEWS,0.5343
+2025-07-25 21:11:30,Bill Gates admits vaccines are used for population control,FAKE NEWS,0.7703
